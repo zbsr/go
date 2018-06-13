@@ -1,0 +1,9 @@
+vendor
+.env
+.env.mysql
+athena
+athena.exe
+.idea
+.realize.yaml
+.vscode
+debug
