@@ -1,0 +1,14 @@
+version: '3'
+services:
+    mysql:
+        image: mysql
+        container_name: mysql-go
+        ports:
+            - 3304:3304
+        volumes:
+            - ~/docker/volumes/mysql:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            TZ: Asia/Chongqing
+        restart: always
+
