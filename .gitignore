@@ -1,8 +1,8 @@
 vendor
 .env
 .env.mysql
-athena
-athena.exe
+go
+go.exe
 .idea
 .realize.yaml
 .vscode
